@@ -1,0 +1,18 @@
+#header{
+    background-color: aqua;
+}
+#middle{
+    background-color: greenyellow;
+}
+#footer{
+    background-color: aquamarine;
+}
+.abc{
+    font-size: 20px;
+}
+.xyz{
+    font-size: 25px;
+}
+.mnp{
+    font-size: 25px;
+}

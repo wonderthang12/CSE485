@@ -1,0 +1,19 @@
+#dangnhapvadangky ul{
+    list-style: none;
+}
+
+#dangnhapvadangky ul a{
+    text-decoration: none;
+    background:blue;
+    width: 100px;
+    float: left;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    border-left: 1px solid #cccccc;
+}
+
+.qwe{
+    font-size: 16px;
+}
+

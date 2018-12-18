@@ -1,0 +1,19 @@
+#header{
+    background-color: brown;
+}
+
+#middle{
+    background-color: forestgreen;
+}
+
+#footer{
+    background-color: yellow;
+}
+
+.john{
+    font-size: 25px;
+}
+
+.evan{
+    font-size: 30px;
+}
