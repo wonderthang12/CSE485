@@ -1,0 +1,93 @@
+
+#menu-ngang{
+    text-align: center;
+}
+
+#menu-ngang ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 160px;
+}
+
+#menu-ngang ul a {
+    text-decoration: none;
+    background: green;
+    width: 100px;
+    float: left;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    border-left: 1px solid #cccccc;
+}
+
+.xyz{
+    font-size: 20px;
+}
+
+#menu-doc ul {
+    background: #8AD385;
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 160px;
+  }
+#menu-doc li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+  }
+#menu-doc li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+  }
+#menu-doc li:hover {
+    background: #CDE2CD;
+  }
+
+.abc{
+    font-size: 16px;
+}
+
+#dangnhapvadangky ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    margin-left: 600px;
+}
+
+#header{
+    background: yellow;
+}
+
+#footer{
+    background: green;
+}
+.a2{
+    font-size: 20px;
+}
+.a3{
+    font-size: 16px;
+}
+
+.hinhanh{
+    margin-left: 160px;
+}
+
+.a1{
+    text-align: center;
+}
+
+.qwe{
+    text-align: center;
+}
+#traloicauhoi ul{
+    list-style-type: none;
+}
+.tieude{
+    text-align: center;
+}

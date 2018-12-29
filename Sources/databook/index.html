@@ -1,0 +1,46 @@
+<?php include('ketnoi.php'); ?>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dữ liệu truyện</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <div id="header"></div>
+        <div id="middle">
+            <form action="ketnoi.php" method="POST">
+                <table with="400" cellspacing="0" cellpadding="5" align="centre">
+                    <tr>
+                        <td>Thể loại</td>
+                        <td>
+                            <select name="theloai">
+                                <option value="truyentranh">Truyện tranh</option>
+                                <option value="truyencotich">Truyện cổ tích</option>
+                            </select>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Tên truyện</td>
+                    </tr>
+
+                    <tr>
+                        <td>Chương</td>
+                        <td>
+                            <select name="chuong">
+                                <option value="chuong1">Chương 1</option>
+                                <option value="chuong2">Chương 2</option>
+                            </select>
+                        </td>
+
+                        <td><input type="submit" name="submit" value="Chọn"></td>                   
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

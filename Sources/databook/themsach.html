@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Thêm truyện</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="themsach">
+            <h1><b>THÊM SÁCH</b></h1>
+            <form action="xulythem.php" method="POST">
+                <table with="400" cellspacing="0" cellpadding="5" align="centre">
+                    <tr>
+                        <td>ID Thể loại</td>
+                        <td><input type="text" name="ID_TheLoai" id="ID_TheLoai"></td>
+                        <td>Tên thể loại</td>
+                        <td><input type="text" name="Ten_TheLoai" id="Ten_TheLoai"></td>
+                    </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="Thêm"></td>
+                </tr>
+            </form>
+            </div>
+
+        <div id="themanh">
+            <form method="POST" enctype="multipart/form-data" action="kiemtraanh.php">
+                <table>
+                    <tr>
+                        <td>Thêm ảnh</td><br>
+                        <td><input type="file" name="image"></td>
+                    </tr>
+                    <tr>
+                        <td><input name="ubmit" type="submit" value="Lưu ảnh"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+
+</html>

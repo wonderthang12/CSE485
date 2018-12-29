@@ -1,0 +1,36 @@
+<?php include('xulytimkiem.php'); ?>
+
+<html>
+
+    <head>
+        <title>QUẢN LÝ ĐỌC SÁCH</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>QUẢN LÝ ĐỌC SÁCH</h1>
+
+        <div id="timkiem">
+            <p>Tìm kiếm truyện</p>
+            <form action="xulytimkiem.php" method="POST">
+                <table with="400" cellspacing="0" cellpadding="5" align="centre">
+                    <tr>               
+                        <input type="text" name="text" size="30">
+                    </tr>
+                <tr>
+                    <input type="submit" name="submit" value="Tìm kiếm">
+                </tr>
+            </form>
+        </div>
+
+        <div id="chucnang">
+            <ul>
+              <li><a href="themsach.html">Thêm sách</a></li>
+              <li><a href="#">Sửa sách</a></li>
+              <li><a href="#">Xóa sách</a></li>
+            </ul>
+          </div>
+
+    </body>
+</html>
