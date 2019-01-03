@@ -1,8 +1,4 @@
-<?php  
-//connect vào CSDL MySQL  
-//host = localhost  
-//username = root  
-//password = rỗng  
+<?php   
 $conn = mysql_connect("localhost", "root", "");  
    
 //chọn database làm việc  
@@ -16,16 +12,12 @@ $fh = fopen($imgFilename, "rb");
 $imgData = fread($fh, filesize($imgFilename));  
 fclose($fh);  
    
-//chèn nội dung file ảnh vào table imgData  
+
 $sql = "INSERT INTO tblImage (imgData) VALUES('" . mysql_real_escape_string($imgData, $conn) . "')";  
 mysql_query($sql, $conn);  
 ?>  
 
-<?php  
-//connect vào CSDL MySQL  
-//host = localhost  
-//username = root  
-//password = rỗng  
+<?php   
 $conn = mysql_connect("localhost", "root", "");  
    
 //chọn database làm việc  

@@ -62,3 +62,17 @@ else{
 }
 
 ?>
+
+
+
+<form id="themsach" action="hienthidulieu.php" method="POST">
+                <table with="400" cellspacing="0" cellpadding="5" align="centre">
+                    <tr>
+                            <input type="text" id="ID_TheLoai" value="">
+                    </tr>
+
+                        <td><input type="submit" name="submit" value="Chọn"></td>                   
+                    </tr>
+                </table>
+            </form>
+        </div>
